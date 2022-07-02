@@ -2,7 +2,7 @@
 
 ## Description
 
-* in current project presented API tests for [Stellar Burgers](https://stellarburgers.nomoreparties.site/) API;
+* The Project2 includes API tests for [Stellar Burgers](https://stellarburgers.nomoreparties.site/) API;
 * tests grouped by endpoint located at ```/src/test/```;
 * object models located at ```/src/main/java/```;
 * test data creates before and removes after running;
