@@ -6,7 +6,7 @@
 * tests grouped by endpoint located at ```/src/test/```;
 * object models located at ```/src/main/java/```;
 * test data creates before and removes after running;
-* was added Allure report (it's available at: ```target/allure-results/```).
+* was added Allure report (available at: ```target/allure-results/```).
 
 ## List of Checks 
 ### User Creation 
