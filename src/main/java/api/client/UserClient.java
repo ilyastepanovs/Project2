@@ -9,7 +9,7 @@ import static utils.DataGenerator.generateResponseBodyForUserPostRequest;
 public class UserClient extends RequestSpecificationClient {
     static final String PATH = "/api/auth";
 
-    @Step("User login")
+    @Step("User Login")
     public ValidatableResponse userLogin(User user){
         return given()
                 .spec(getBaseSpec())
@@ -19,7 +19,7 @@ public class UserClient extends RequestSpecificationClient {
                 .then();
     }
 
-    @Step("User registration")
+    @Step("User Registration")
     public ValidatableResponse userRegistration(User user){
         HashMap<String,String> body = generateResponseBodyForUserPostRequest(user);
         return given()
@@ -30,7 +30,7 @@ public class UserClient extends RequestSpecificationClient {
                 .then();
     }
 
-    @Step("User deleting")
+    @Step("User Deleting")
     public void userDeleting(User user){
         given()
                 .spec(getBaseSpec())

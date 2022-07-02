@@ -34,7 +34,7 @@ public class OrderListTest {
     }
 
     @Test
-    @DisplayName("Check Orders list has not received by Guest")
+    @DisplayName("Check Orders list Has Not Received by Guest")
     public void checkOrdersListReceivedByGuest() {
         ValidatableResponse validatableResponse = orderClient.receiveListOfOrdersAsGuest();
         validatableResponse.assertThat().statusCode(401);
@@ -42,7 +42,7 @@ public class OrderListTest {
     }
 
     @Test
-    @DisplayName("Check Orders list has received by user")
+    @DisplayName("Check Orders List Has Received by User")
     public void checkOrdersListReceivedByUser() {
         ValidatableResponse validatableResponse = orderClient.receiveListOfOrdersAsUser(user);
         validatableResponse.assertThat().body("success", equalTo(true));

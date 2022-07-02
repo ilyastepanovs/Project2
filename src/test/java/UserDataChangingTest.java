@@ -25,7 +25,7 @@ public class UserDataChangingTest {
     }
 
     @Test
-    @DisplayName("Check data changing as user")
+    @DisplayName("Check Data Changing as User")
     public void checkDataChangingAsUser() {
         loginResponse = userClient.userLogin(user);
         ValidatableResponse changingResponse = userClient.changingUserDataAsUser(user);
@@ -35,7 +35,7 @@ public class UserDataChangingTest {
     }
 
     @Test
-    @DisplayName("Check data changing as guest")
+    @DisplayName("Check Data Changing as Guest")
     public void checkDataChangingAsGuest() {
         ValidatableResponse changingResponse = userClient.changingUserDataAsGuest(user);
         changingResponse.assertThat().statusCode(401);

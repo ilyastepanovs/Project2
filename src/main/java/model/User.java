@@ -14,10 +14,8 @@ public class User {
         }
 
         public User(String email, String password){
-        this.firstName = firstName;
         this.email = email;
         this.password = password;
-        this.accessToken = accessToken;
     }
 
         public String getPassword() {
