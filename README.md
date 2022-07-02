@@ -45,7 +45,7 @@
 1. Clone repository: 
 ```git clone git@github.com:ilyastepanovs/Project2.git```;
 2. Open project in IDE;
-3. Run tests. They located at ```/src/test/```
+3. Run the tests from the following location ```/src/test/```
 
 ## How to Open Allure Report?
 1. Open project directory;
