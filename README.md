@@ -9,7 +9,7 @@
 * was added Allure report (it's available at: ```target/allure-results/```).
 
 ## List of Checks 
-### UserCreation 
+### User Creation 
 * create new user;
 * create user with already used credentials;
 * create user without one of required fields.
